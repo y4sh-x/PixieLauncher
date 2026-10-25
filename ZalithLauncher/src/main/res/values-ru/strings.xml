@@ -51,7 +51,7 @@
     <string name="theme_color_glacier">Ледник</string>
     <string name="theme_color_verdant_field">Зелёные сумерки</string>
     <string name="theme_color_urban_ash">Городской серый</string>
-    <string name="theme_color_verdant_dawn">Безмолвный рассвет</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="theme_color_picker_title">Выбор цвета</string>
     <!-- Animations -->
     <string name="animate_type_bounce">Подпрыгивающая</string>

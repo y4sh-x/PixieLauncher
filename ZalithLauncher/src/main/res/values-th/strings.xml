@@ -84,7 +84,7 @@
     <string name="theme_color_glacier">กลาเซียร์</string>
     <string name="theme_color_verdant_field">สนธยาเขียวขจี</string>
     <string name="theme_color_urban_ash">แอชเมือง</string>
-    <string name="theme_color_verdant_dawn">รุ่งอรุณแห่งป่าอันเงียบงัน</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="theme_color_picker_title">เลือกสีจากหน้าจอ</string>
     <string name="theme_color_picker_edit_hex">แก้ไข Hex</string>
     <string name="theme_color_picker_edit_hex_invalid">ค่า Hex ผิดตามลักษณะ</string>

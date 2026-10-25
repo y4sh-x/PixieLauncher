@@ -62,7 +62,7 @@
     <string name="theme_color_glacier">Glaciar</string>
     <string name="theme_color_verdant_field">Crepúsculo verde</string>
     <string name="theme_color_urban_ash">Ceniza urbana</string>
-    <string name="theme_color_verdant_dawn">Amanecer del bosque silente</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="theme_color_picker_title">Selector de colores</string>
     <string name="theme_color_picker_edit_hex">Editar Hex</string>
     <string name="theme_color_picker_edit_hex_invalid">Hex inválido</string>

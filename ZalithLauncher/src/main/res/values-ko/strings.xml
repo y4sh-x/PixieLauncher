@@ -84,7 +84,7 @@
     <string name="theme_color_glacier">글레이셔</string>
     <string name="theme_color_verdant_field">버던트 트와일라잇</string>
     <string name="theme_color_urban_ash">어반 애쉬</string>
-    <string name="theme_color_verdant_dawn">사일런트 포레스트 던</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="theme_color_picker_title">색상 선택</string>
     <string name="theme_color_picker_edit_hex">Hex 코드 편집</string>
     <string name="theme_color_picker_edit_hex_invalid">잘못된 Hex 코드입니다</string>

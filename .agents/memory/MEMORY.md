@@ -1,0 +1,1 @@
+- [Brand and storage identity](launcher-branding-identity.md) — keep the visible PixieLauncher name separate from persistent launcher storage identifiers.

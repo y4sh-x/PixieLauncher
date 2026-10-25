@@ -78,7 +78,7 @@
     <string name="theme_color_glacier">冰川</string>
     <string name="theme_color_verdant_field">原野暮光</string>
     <string name="theme_color_urban_ash">鈦影</string>
-    <string name="theme_color_verdant_dawn">靜林之晨</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="theme_color_picker_title">顏色選擇器</string>
     <string name="theme_color_picker_edit_hex">編輯 Hex</string>
     <string name="theme_color_picker_edit_hex_invalid">無效 Hex</string>

@@ -19,5 +19,28 @@
 package com.movtery.zalithlauncher.ui.theme
 
 import androidx.compose.material3.Typography
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 
-val AppTypography = Typography()
+private val baseTypography = Typography(defaultFontFamily = FontFamily.SansSerif)
+
+val AppTypography = baseTypography.copy(
+    displayLarge = baseTypography.displayLarge.copy(
+        fontWeight = FontWeight.SemiBold,
+        letterSpacing = (-0.5).sp
+    ),
+    headlineLarge = baseTypography.headlineLarge.copy(
+        fontWeight = FontWeight.SemiBold,
+        letterSpacing = (-0.25).sp
+    ),
+    headlineMedium = baseTypography.headlineMedium.copy(
+        fontWeight = FontWeight.SemiBold
+    ),
+    titleLarge = baseTypography.titleLarge.copy(
+        fontWeight = FontWeight.SemiBold
+    ),
+    titleMedium = baseTypography.titleMedium.copy(
+        fontWeight = FontWeight.Medium
+    )
+)

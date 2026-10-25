@@ -193,7 +193,7 @@ private fun getSeedColor(context: Context, darkTheme: Boolean): Int {
                     context.resources.getColor(android.R.color.system_accent1_200, context.theme)
                 }
             } else {
-                getPredefinedSeedColor(ColorThemeType.EMBERMIRE, darkTheme)
+                getPredefinedSeedColor(ColorThemeType.VERDANT_DAWN, darkTheme)
             }
         }
         ColorThemeType.CUSTOM -> AllSettings.launcherCustomColor.state
@@ -209,8 +209,8 @@ private fun getPredefinedSeedColor(theme: ColorThemeType, darkTheme: Boolean): I
         ColorThemeType.GLACIER -> if (darkTheme) 0xFF73D2FB.toInt() else 0xFF006684.toInt()
         ColorThemeType.VERDANTFIELD -> if (darkTheme) 0xFFD2C972.toInt() else 0xFF676014.toInt()
         ColorThemeType.URBAN_ASH -> if (darkTheme) 0xFFC7C6C6.toInt() else 0xFF5E5E5F.toInt()
-        ColorThemeType.VERDANT_DAWN -> if (darkTheme) 0xFF8ED88E.toInt() else 0xFF004814.toInt()
-        else -> 0xFFA63A17.toInt()
+        ColorThemeType.VERDANT_DAWN -> if (darkTheme) 0xFF9BD87A.toInt() else 0xFF315F2D.toInt()
+        else -> 0xFF315F2D.toInt()
     }
 }
 

@@ -318,7 +318,7 @@
     <string name="theme_color_glacier">グレイシア</string>
     <string name="theme_color_verdant_field">ヴァーダントトワイライト</string>
     <string name="theme_color_urban_ash">アーバンアッシュ</string>
-    <string name="theme_color_verdant_dawn">サイレントフォレストダウン</string>
+    <string name="theme_color_verdant_dawn">Pixie Grove</string>
     <string name="crash_launch_crash_title">アプリケーションの起動に失敗</string>
     <string name="crash_launch_crash_message">ランチャーに深刻な問題が発生しクラッシュしました</string>
     <string name="game_menu_option_switch_log">ログを出力</string>

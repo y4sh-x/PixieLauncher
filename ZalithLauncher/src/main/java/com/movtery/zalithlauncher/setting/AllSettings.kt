@@ -357,13 +357,12 @@ object AllSettings : SettingsRegistry() {
 
     //Launcher
     /**
-     * 颜色主题色
-     * Android 12+ 默认动态主题色
+     * Launcher color theme. Pixie Grove is the branded default; users can still choose
+     * any of the other palettes from Settings.
      */
     val launcherColorTheme = enumSetting(
         "launcherColorTheme",
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) ColorThemeType.DYNAMIC
-        else ColorThemeType.EMBERMIRE
+        ColorThemeType.VERDANT_DAWN
     )
 
     /**

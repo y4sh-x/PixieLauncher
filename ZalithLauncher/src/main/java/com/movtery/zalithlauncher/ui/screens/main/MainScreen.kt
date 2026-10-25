@@ -178,7 +178,7 @@ fun MainScreen(
             TopBar(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(40.dp),
+                .height(52.dp),
                 mainScreenKey = mainScreenKey,
                 inLauncherScreen = inLauncherScreen,
                 taskRunning = tasks.isEmpty(),
@@ -344,12 +344,23 @@ private fun <E: TitledNavKey> TopBar(
 
                 if (parent == null) {
                     if (festivals.isEmpty()) {
-                        Text(
-                            text = BuildKeys.LAUNCHER_IDENTIFIER,
-                            style = style,
-                            softWrap = softWarp,
-                            maxLines = maxLines
-                        )
+                        Row(
+                            horizontalArrangement = Arrangement.spacedBy(9.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Icon(
+                                modifier = Modifier.size(24.dp),
+                                painter = painterResource(R.drawable.ic_launcher_foreground),
+                                contentDescription = null,
+                                tint = Color.Unspecified
+                            )
+                            Text(
+                                text = BuildKeys.LAUNCHER_NAME,
+                                style = style,
+                                softWrap = softWarp,
+                                maxLines = maxLines
+                            )
+                        }
                     } else {
                         FestivalTitleText(
                             festivals = festivals,

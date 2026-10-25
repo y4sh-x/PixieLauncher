@@ -27,12 +27,14 @@ import androidx.compose.material3.CardColors
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CardElevation
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.UiComposable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
+import androidx.compose.ui.unit.dp
 import com.movtery.zalithlauncher.setting.AllSettings
 import com.movtery.zalithlauncher.ui.screens.content.elements.backgroundGlass
 import com.movtery.zalithlauncher.ui.theme.cardColor
@@ -47,14 +49,17 @@ import com.movtery.zalithlauncher.ui.theme.onCardColor
 fun BackgroundCard(
     modifier: Modifier = Modifier,
     influencedByBackground: Boolean = true,
-    shape: Shape = CardDefaults.shape,
+    shape: Shape = MaterialTheme.shapes.extraLarge,
     colors: CardColors = CardDefaults.cardColors(
         containerColor = cardColor(influencedByBackground),
         contentColor = onCardColor()
     ),
     elevation: CardElevation = CardDefaults.cardElevation(),
     blur: Int = AllSettings.backgroundBlur.state,
-    border: BorderStroke? = null,
+    border: BorderStroke? = BorderStroke(
+        width = 1.dp,
+        color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.45f)
+    ),
     content: @Composable ColumnScope.() -> Unit
 ) {
     Card(
@@ -79,7 +84,7 @@ fun BackgroundCard(
 fun BackgroundCard(
     modifier: Modifier = Modifier,
     influencedByBackground: Boolean = true,
-    shape: Shape = CardDefaults.shape,
+    shape: Shape = MaterialTheme.shapes.extraLarge,
     colors: CardColors = CardDefaults.cardColors(
         containerColor = cardColor(influencedByBackground),
         contentColor = onCardColor(),
@@ -87,7 +92,10 @@ fun BackgroundCard(
     ),
     elevation: CardElevation = CardDefaults.cardElevation(),
     blur: Int = AllSettings.backgroundBlur.state,
-    border: BorderStroke? = null,
+    border: BorderStroke? = BorderStroke(
+        width = 1.dp,
+        color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.45f)
+    ),
     onClick: () -> Unit,
     enabled: Boolean = true,
     content: @Composable @UiComposable ColumnScope.() -> Unit

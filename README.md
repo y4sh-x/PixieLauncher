@@ -1,17 +1,9 @@
-# Zalith Launcher 2
-![Downloads](https://img.shields.io/github/downloads/ZalithLauncher/ZalithLauncher2/total)
-[![Sponsor](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors)](https://afdian.com/a/MovTery)
+# PixieLauncher
+![Downloads](https://img.shields.io/github/downloads/y4sh-x/PixieLauncher/total)
 
-[简体中文](README.md) | [繁體中文](README_ZH_TW.md)
+PixieLauncher is an Android launcher for [Minecraft: Java Edition](https://www.minecraft.net/), built with Jetpack Compose and Material Design 3. It includes Microsoft and offline account flows, version and mod-loader management, Java runtimes, downloads, game controls, multiplayer, and an integrated file manager.
 
-
-> [!IMPORTANT]
-> This project is **completely separate** from [ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher).  
-
-**Zalith Launcher 2** is a newly designed launcher for **Android devices** tailored for [Minecraft: Java Edition](https://www.minecraft.net/). The project uses [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni) as its core launching engine and features a modern UI built with **Jetpack Compose** and **Material Design 3**.  
-We are currently building our official website [zalithlauncher.cn](https://zalithlauncher.cn)  
-Additionally, we are aware that a third-party website has been set up using the name “Zalith Launcher”, appearing to be official. Please note: **this site was not created by us**. It exploits the name to display ads for profit. We **do not participate in, endorse, or trust** such content.  
-Please stay vigilant and **protect your personal privacy**!
+The launcher engine and much of the original implementation are based on [Zalith Launcher 2](https://github.com/ZalithLauncher/ZalithLauncher2) and its use of the [PojavLauncher engine](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni). Copyright and license notices are retained below and in the source files.
 
 ## 🌐 Language and Translation Support
 
@@ -27,14 +19,14 @@ Thank you to every language contributor for helping make Zalith Launcher 2 more 
 * Android Studio **Bumblebee** or newer
 * Android SDK:
   * **Minimum API level**: 26
-  * **Target API level**: 35
-* JDK 11
+  * **Compile API level**: 37
+  * **Target API level**: 34
+* JDK 17 or newer
 
 ### Build Steps
 
 ```bash
-git clone git@github.com:ZalithLauncher/ZalithLauncher2.git
-# Open the project in Android Studio and build
+./gradlew :ZalithLauncher:assembleDebug
 ```
 
 ## 📜 License
