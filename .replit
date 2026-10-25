@@ -2,6 +2,20 @@ modules = ["java-graalvm22.3", "rust-stable", "python-3.12"]
 
 [nix]
 channel = "stable-25_05"
+packages = ["rustup", "cargo-ndk"]
 
 [agent]
 expertMode = true
+
+[userenv]
+
+[userenv.shared]
+OAUTH_CLIENT_ID = "174b2b98-3897-47a6-b501-d629117db773"
+
+[userenv.development]
+ANDROID_HOME = "/home/runner/workspace/.replit-build-cache/android-sdk"
+ANDROID_SDK_ROOT = "/home/runner/workspace/.replit-build-cache/android-sdk"
+ANDROID_NDK_HOME = "/home/runner/workspace/.replit-build-cache/android-sdk/ndk/25.2.9519653"
+ANDROID_NDK_ROOT = "/home/runner/workspace/.replit-build-cache/android-sdk/ndk/25.2.9519653"
+CARGO_HOME = "/home/runner/workspace/.replit-build-cache/cargo"
+RUSTUP_HOME = "/home/runner/workspace/.replit-build-cache/rustup"

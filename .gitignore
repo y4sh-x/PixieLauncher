@@ -31,4 +31,5 @@ LWJGL/*/build/
 .ampersand/
 
 .vscode/
+/.replit-build-cache/
 
