@@ -898,8 +898,8 @@
     <string name="about_acknowledgements_title">감사의 말</string>
     <string name="about_sponsor">스폰서 지원</string>
     <string name="about_launcher_project_link">프로젝트 링크</string>
-    <string name="about_launcher_author_movtery_text">%s의 제작자</string>
-    <string name="about_launcher_author_movtery_title">MovTery</string>
+    <string name="about_launcher_author_movtery_text">%s의 제작자 및 소유자</string>
+    <string name="about_launcher_author_movtery_title">y4sh-x</string>
     <string name="about_launcher_version">런처 버전: %s</string>
     <string name="about_launcher_title">런처 정보</string>
     <string name="control_editor_exit_confirm">바로 나가기</string>

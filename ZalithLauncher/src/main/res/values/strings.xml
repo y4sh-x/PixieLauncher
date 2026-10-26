@@ -1270,8 +1270,9 @@
     <!-- About -->
     <string name="about_launcher_title">About Launcher</string>
     <string name="about_launcher_version">Launcher Version: %s</string>
-    <string name="about_launcher_author_movtery_title">MovTery</string>
-    <string name="about_launcher_author_movtery_text">Author of %s</string>
+    <string name="about_launcher_author_movtery_title">y4sh-x</string>
+    <string name="about_launcher_author_movtery_text">Owner and creator of %s</string>
+    <string name="about_owner_profile">GitHub Profile</string>
     <string name="about_launcher_project_link">Project Link</string>
     <string name="about_sponsor">Sponsorship Support</string>
     <string name="about_acknowledgements_title">Acknowledgements</string>

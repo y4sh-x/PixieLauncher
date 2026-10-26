@@ -992,8 +992,8 @@
     <!--  關於  -->
     <string name="about_launcher_title">關於啟動器</string>
     <string name="about_launcher_version">啟動器版本：%s</string>
-    <string name="about_launcher_author_movtery_title">墨北 MovTery</string>
-    <string name="about_launcher_author_movtery_text">%s 的作者</string>
+    <string name="about_launcher_author_movtery_title">y4sh-x</string>
+    <string name="about_launcher_author_movtery_text">%s 的建立者與擁有者</string>
     <string name="about_launcher_project_link">專案連結</string>
     <string name="about_sponsor">贊助支持</string>
     <string name="about_acknowledgements_title">鳴謝</string>

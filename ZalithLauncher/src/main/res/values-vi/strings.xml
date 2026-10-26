@@ -607,8 +607,8 @@
     <string name="shader_pack_manage_no_packs">Chưa có shader</string>
     <string name="about_launcher_title">Về launcher</string>
     <string name="about_launcher_version">Phiên bản: %s</string>
-    <string name="about_launcher_author_movtery_title">MovTery</string>
-    <string name="about_launcher_author_movtery_text">Tác giả %s</string>
+    <string name="about_launcher_author_movtery_title">y4sh-x</string>
+    <string name="about_launcher_author_movtery_text">Người tạo và sở hữu %s</string>
     <string name="about_launcher_project_link">Địa chỉ dự án</string>
     <string name="about_sponsor">Ủng hộ</string>
     <string name="crash_type">Loại sự cố: %s</string>

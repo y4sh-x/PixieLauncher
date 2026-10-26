@@ -64,6 +64,7 @@ import com.movtery.zalithlauncher.library.LibraryInfo
 import com.movtery.zalithlauncher.library.libraryData
 import com.movtery.zalithlauncher.path.URL_COMMUNITY
 import com.movtery.zalithlauncher.path.URL_MCMOD
+import com.movtery.zalithlauncher.path.URL_OWNER_PROFILE
 import com.movtery.zalithlauncher.path.URL_PROJECT
 import com.movtery.zalithlauncher.path.URL_SUPPORT
 import com.movtery.zalithlauncher.path.URL_WEBLATE
@@ -106,7 +107,10 @@ fun AboutInfoScreen(
                         ButtonIconItem(
                             icon = painterResource(R.drawable.ic_launcher_foreground),
                             title = BuildKeys.LAUNCHER_NAME,
-                            text = stringResource(R.string.about_launcher_version, BuildConfig.VERSION_NAME),
+                            text = stringResource(
+                                R.string.about_launcher_version,
+                                BuildConfig.VERSION_NAME.removeSuffix("-debug")
+                            ),
                             button = {
                                 Button(
                                     onClick = checkUpdate
@@ -122,14 +126,14 @@ fun AboutInfoScreen(
                         )
 
                         ButtonIconItem(
-                            icon = painterResource(R.drawable.img_avatar_movtery),
+                            icon = painterResource(R.drawable.ic_launcher_foreground),
                             title = stringResource(R.string.about_launcher_author_movtery_title),
                             text = stringResource(R.string.about_launcher_author_movtery_text, BuildKeys.LAUNCHER_NAME),
                             button = {
                                 Button(
-                                    onClick = { openLink(URL_SUPPORT) }
+                                    onClick = { openLink(URL_OWNER_PROFILE) }
                                 ) {
-                                    Text(text = stringResource(R.string.about_sponsor))
+                                    Text(text = stringResource(R.string.about_owner_profile))
                                 }
                             }
                         )

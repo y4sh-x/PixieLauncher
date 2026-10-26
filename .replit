@@ -2,7 +2,7 @@ modules = ["java-graalvm22.3", "rust-stable", "python-3.12"]
 
 [nix]
 channel = "stable-25_05"
-packages = ["rustup", "cargo-ndk"]
+packages = ["rustup", "cargo-ndk", "jdk17"]
 
 [agent]
 expertMode = true

@@ -1,14 +1,9 @@
-# PixieLauncher
+# PixieLauncher V1
 ![Downloads](https://img.shields.io/github/downloads/y4sh-x/PixieLauncher/total)
 
-PixieLauncher is an Android launcher for [Minecraft: Java Edition](https://www.minecraft.net/), built with Jetpack Compose and Material Design 3. It includes Microsoft and offline account flows, version and mod-loader management, Java runtimes, downloads, game controls, multiplayer, and an integrated file manager.
+PixieLauncher is an Android launcher for [Minecraft: Java Edition](https://www.minecraft.net/), maintained by [y4sh-x](https://github.com/y4sh-x). It includes Microsoft and offline account flows, version and mod-loader management, Java runtimes, downloads, game controls, multiplayer, and an integrated file manager.
 
-The launcher engine and much of the original implementation are based on [Zalith Launcher 2](https://github.com/ZalithLauncher/ZalithLauncher2) and its use of the [PojavLauncher engine](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni). Copyright and license notices are retained below and in the source files.
-
-## 🌐 Language and Translation Support
-
-We are using the Weblate platform to translate Zalith Launcher 2. You're welcome to join our [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2) and contribute to the translations!  
-Thank you to every language contributor for helping make Zalith Launcher 2 more multilingual and global!
+The interface ships with localized strings across the supported languages.
 
 ## 📦 Build Instructions (For Developers)
 
@@ -22,6 +17,13 @@ Thank you to every language contributor for helping make Zalith Launcher 2 more 
   * **Compile API level**: 37
   * **Target API level**: 34
 * JDK 17 or newer
+* Rust stable with `rustup`
+* Android Rust targets and `cargo-ndk`:
+
+```bash
+rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+cargo install cargo-ndk
+```
 
 ### Build Steps
 
@@ -29,18 +31,9 @@ Thank you to every language contributor for helping make Zalith Launcher 2 more 
 ./gradlew :ZalithLauncher:assembleDebug
 ```
 
-## 📜 License
+## License
 
-This project is licensed under the **[GPL-3.0 license](LICENSE)**.
-
-### Additional Terms (Pursuant to Section 7 of the GPLv3 License)
-
-1. When distributing a modified version of this program, you must reasonably modify the program's name or version number to distinguish it from the original version. (According to [GPLv3, 7(c)](https://github.com/ZalithLauncher/ZalithLauncher2/blob/969827b/LICENSE#L372-L374))
-    - Modified versions **must not include the original program name "ZalithLauncher" or its abbreviation "ZL" in their name, nor use any name that is similar enough to cause confusion with the official name**.
-    - All modified versions **must clearly indicate that they are “Unofficial Modified Versions” on the program’s startup screen or main interface**.
-    - The application name of the program can be modified in [gradle.properties](./ZalithLauncher/gradle.properties).
-
-2. You must not remove the copyright notices displayed by the program. (According to [GPLv3, 7(b)](https://github.com/ZalithLauncher/ZalithLauncher2/blob/969827b/LICENSE#L368-L370))
+The launcher source is licensed under the [GNU GPL version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html). Source-file and third-party copyright and license notices are retained.
 
 ## Open Source Libraries and Licenses
 
