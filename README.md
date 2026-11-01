@@ -1,147 +1,70 @@
-<div align="center"> Pixie Launcher
+<div align="center">✨ Pixie Launcher
 
-Minecraft: Java Edition Launcher for Android
+Your Minecraft. Your World. Your Launcher.
 
-""Platform" (https://img.shields.io/badge/Platform-Android_8.0+-3DDC84?style=for-the-badge&logo=android&logoColor=white)" (https://github.com/y4sh-x/PixieLauncher)
-""Minecraft" (https://img.shields.io/badge/Minecraft-Java_Edition-3C8527?style=for-the-badge&logo=minecraft&logoColor=white)" (https://www.minecraft.net)
-""License" (https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)" (LICENSE)
-""GitHub" (https://img.shields.io/badge/GitHub-PixieLauncher-black?style=for-the-badge&logo=github)" (https://github.com/y4sh-x/PixieLauncher)
+A modern Android launcher for Minecraft: Java Edition, built for a smooth and customizable mobile experience.
 
-<br/>Pixie Launcher is a community-driven rebrand of ZalithLauncher2, bringing Minecraft: Java Edition to Android devices through a modern native interface powered by Jetpack Compose.
+""Android" (https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)" (https://www.android.com/)
+""Kotlin" (https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)" (https://kotlinlang.org/)
+""Gradle" (https://img.shields.io/badge/Build-Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)" (https://gradle.org/)
+""GitHub" (https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)" (https://github.com/y4sh-x/PixieLauncher)
 
-Experience Minecraft Java on mobile with account authentication, game version management, Java runtime support, customizable controls, integrated file management, and powerful game launching capabilities.
-
-"📥 Download Latest APK" (https://github.com/y4sh-x/PixieLauncher/releases/latest) • "✨ Features" (#-features) • "📖 Quick Start" (#-quick-start-guide) • "❓ FAQ" (#-frequently-asked-questions) • "🛠️ Build from Source" (#️-building-from-source)
+"Download" (https://github.com/y4sh-x/PixieLauncher/releases/latest) · "Source Code" (https://github.com/y4sh-x/PixieLauncher) · "Report Issues" (https://github.com/y4sh-x/PixieLauncher/issues)
 
 </div>---
 
-🌟 Features
+🌌 About Pixie Launcher
 
-🎨 Modern Android Launcher
+Pixie Launcher is an Android launcher project for Minecraft: Java Edition, focused on bringing desktop-style Minecraft gameplay to Android devices.
 
-- Native Android interface powered by Jetpack Compose.
-- Portrait-oriented launcher experience.
-- Dedicated launcher settings and account management.
-- Modern Android UI components and customizable settings.
+Designed with a modern interface and mobile-first experience, Pixie Launcher aims to make managing and launching Minecraft easier.
 
-🔐 Account Management
+🚀 Features
 
-- Microsoft account authentication.
-- Account management and switching.
-- Support for offline account functionality where supported by the launcher.
-- Integrated authentication flow.
+Feature| Description
+🎨 Modern UI| Clean and modern launcher interface
+🔐 Account Management| Manage supported Minecraft accounts
+📦 Version Management| Manage Minecraft versions
+⚙️ Mod Loader Support| Work with supported mod loaders
+☕ Java Runtime| Manage Java runtimes
+🎮 Touch Controls| Mobile gameplay controls
+📁 File Manager| Access launcher files
+🖥️ Java Edition| Launch Minecraft Java Edition
+📱 Portrait Interface| Launcher UI designed for mobile
 
-🚀 Minecraft Version Management
+📱 Platform
 
-- Download and manage Minecraft Java Edition versions.
-- Manage game installations.
-- Support for compatible mod loaders.
-- Download required game libraries and assets.
-- Manage individual game configurations.
+- Platform: Android
+- Game: Minecraft: Java Edition
+- Architecture: Depends on supported device and build configuration
+- Interface: Mobile-first launcher experience
 
-☕ Java Runtime Management
+📥 Download
 
-- Integrated Java runtime management.
-- Support for multiple Java runtime versions.
-- Runtime installation and management.
-- Configure Java-related game launch settings.
+<div align="center">Get Pixie Launcher
 
-🎮 Gaming & Controls
+Download the latest available release from GitHub.
 
-- Customizable on-screen touch controls.
-- Control editor for adjusting layouts.
-- Keyboard and mouse input support.
-- Physical controller support through compatible input systems.
-- Landscape gameplay experience.
+""Download Latest Release" (https://img.shields.io/badge/⬇_DOWNLOAD-LATEST_RELEASE-7C3AED?style=for-the-badge)" (https://github.com/y4sh-x/PixieLauncher/releases/latest)
 
-📁 Integrated File Manager
+</div>1. Open the Releases page.
+2. Download the available APK.
+3. Install it on your Android device.
+4. Open Pixie Launcher and configure your account.
 
-- Built-in file management.
-- Browse and manage launcher files.
-- Manage Minecraft-related directories.
-- Import supported files and configurations.
+🛠️ Build From Source
 
-⚡ Graphics & Performance
+Requirements
 
-- Integrated LWJGL support.
-- Native graphics and input integration.
-- Multiple compatible rendering components.
-- Configurable game launch parameters.
-- Architecture-specific native libraries.
-
-🌐 Multiplayer & Connectivity
-
-- Microsoft authentication for supported online services.
-- Minecraft Java multiplayer compatibility.
-- Integrated networking components.
-- Terracotta multiplayer networking functionality.
-
----
-
-📱 System Requirements
-
-Component| Minimum Requirement
-Operating System| Android 8.0 (API 26)
-Architecture| Compatible ARM / ARM64 devices
-RAM| 3 GB+
-Storage| 2 GB+ free space
-Internet| Required for downloads and online authentication
-Java| Compatible Java runtime
-
-Recommended: Android 11 or newer, 6 GB+ RAM, 64-bit ARM processor and sufficient free storage.
-
-Actual Minecraft performance depends on device hardware, Minecraft version, renderer, mods and shaders.
-
----
-
-🚀 Quick Start Guide
-
-1. Download: Visit the "Pixie Launcher Releases" (https://github.com/y4sh-x/PixieLauncher/releases/latest) page.
-2. Install: Install the compatible APK on your Android device.
-3. Open Launcher: Launch Pixie Launcher.
-4. Add Account: Sign in using the supported account authentication options.
-5. Install Minecraft: Select and download your preferred Minecraft Java Edition version.
-6. Configure: Select a compatible Java runtime and configure game settings.
-7. Play: Launch Minecraft and enjoy Java Edition on Android!
-
----
-
-❓ Frequently Asked Questions
-
-<details>
-<summary><b>1. Is Pixie Launcher free?</b></summary>Yes. Pixie Launcher is an open-source community rebrand distributed under the applicable GPL-3.0 licensing terms.
-
-</details><details>
-<summary><b>2. Is Pixie Launcher based on ZalithLauncher2?</b></summary>Yes. Pixie Launcher is derived from ZalithLauncher2. The project retains the original architecture and core functionality while introducing its own branding and modifications.
-
-</details><details>
-<summary><b>3. Can I play Minecraft Java Edition?</b></summary>Yes. Pixie Launcher is designed to run Minecraft: Java Edition on compatible Android devices.
-
-</details><details>
-<summary><b>4. Does it support mods?</b></summary>Compatible Minecraft versions and mod-loader installations are supported. Individual mods may have their own compatibility requirements.
-
-</details><details>
-<summary><b>5. Can I use a keyboard and mouse?</b></summary>Compatible physical keyboard and mouse input is supported through the launcher's input systems.
-
-</details><details>
-<summary><b>6. Who develops Pixie Launcher?</b></summary>Pixie Launcher is maintained by YASH under the GitHub account "@y4sh-x" (https://github.com/y4sh-x).
-
-</details>---
-
-🛠️ Building from Source
-
-Prerequisites
-
-- JDK 17 or newer.
-- Android SDK Platform 37.2.
-- Android NDK 25.2.9519653.
-- Gradle wrapper included in the repository.
-- Git.
+- JDK 17 or newer
+- Android SDK
+- Android NDK 25.2.9519653
+- Android SDK Platform 37.2
+- Git
 
 Clone Repository
 
 git clone https://github.com/y4sh-x/PixieLauncher.git
-
 cd PixieLauncher
 
 Build Debug APK
@@ -152,51 +75,59 @@ Build Release APK
 
 ./gradlew assembleRelease
 
-Build App Module Only
-
-./gradlew :PixieLauncher:assembleDebug
-
-APK Output
+Build Output
 
 PixieLauncher/build/outputs/apk/debug/
 
----
+🖼️ Screenshots
 
-🤝 Contributing
+<div align="center">Screenshots will be added here.
 
-Contributions, bug reports and improvements are welcome!
+</div>❓ FAQ
 
-If you find a bug or have an idea to improve Pixie Launcher, open an issue or submit a pull request.
+Q: Is Pixie Launcher available for Android?
 
----
+A: Yes. Pixie Launcher is an Android project.
 
-📜 License & Acknowledgements
+Q: Does it support Minecraft Java Edition?
 
-Pixie Launcher is distributed under the GNU General Public License v3.0 (GPL-3.0), subject to the applicable upstream and third-party license terms.
+A: Yes, it is designed for Minecraft: Java Edition.
 
-Upstream Projects
+Q: Where can I download it?
 
-- "ZalithLauncher2" (https://github.com/ZalithLauncher/ZalithLauncher2) — Original launcher architecture and foundation.
+A: Visit the "GitHub Releases" (https://github.com/y4sh-x/PixieLauncher/releases) page.
+
+Q: Is Pixie Launcher open source?
+
+A: The source code is available in this repository. Check the applicable license for usage and distribution terms.
+
+🤝 Credits & Acknowledgements
+
+Pixie Launcher is based on the open-source project:
+
+- "ZalithLauncher2" (https://github.com/ZalithLauncher/ZalithLauncher2) — Original launcher project and upstream development.
 - "LWJGL" (https://www.lwjgl.org/) — Lightweight Java Game Library.
-- "PojavLauncher" (https://github.com/PojavLauncherTeam/PojavLauncher) — Android Minecraft Java ecosystem.
+- "Minecraft" (https://www.minecraft.net/) — Minecraft Java Edition.
 
-Original copyright notices, attribution and applicable third-party licenses are retained.
+Special thanks to the original developers and contributors whose work makes this project possible.
+
+⚠️ Disclaimer
+
+Pixie Launcher is an independent community project. It is not affiliated with, endorsed by, or officially connected to Mojang Studios or Microsoft.
+
+Minecraft is a trademark of Mojang Studios.
+
+📜 License
+
+See the repository's "LICENSE" (https://github.com/y4sh-x/PixieLauncher/blob/main/LICENSE) file for licensing information.
 
 ---
 
-👨‍💻 Project Maintainer
+<div align="center">✨ PIXIE LAUNCHER
 
-YASH
+Built for Minecraft. Designed for Android.
 
-- GitHub: "@y4sh-x" (https://github.com/y4sh-x)
-- Project: "PixieLauncher" (https://github.com/y4sh-x/PixieLauncher)
+""GitHub stars" (https://img.shields.io/github/stars/y4sh-x/PixieLauncher?style=social)" (https://github.com/y4sh-x/PixieLauncher/stargazers)
+""GitHub forks" (https://img.shields.io/github/forks/y4sh-x/PixieLauncher?style=social)" (https://github.com/y4sh-x/PixieLauncher/forks)
 
----
-
-<div align="center"> Pixie Launcher
-
-Your Minecraft Java experience. On Android.
-
-Made with ❤️ by YASH
-
-</div>Minecraft is a trademark of Mojang Studios. Pixie Launcher is an independent community project and is not affiliated with, endorsed by, or associated with Mojang Studios or Microsoft.
+</div>
