@@ -1,84 +1,46 @@
-✨ PixieLauncher
+# PixieLauncher
 
-A Minecraft: Java Edition launcher for Android.
+PixieLauncher is a community rebrand of ZalithLauncher2, an Android launcher for Minecraft: Java Edition. It continues the upstream project with its launcher, authentication, download, runtime, file-management, and game-launching functionality.
 
-PixieLauncher is an Android launcher project designed to bring Minecraft Java Edition to mobile devices through a modern, user-friendly interface.
+## Features
 
-Our goal is to provide a clean launcher experience with intuitive navigation, convenient game management and a Pixie-inspired design.
+- Microsoft account authentication
+- Minecraft Java Edition version and mod loader downloads
+- Java runtime management
+- Built-in file manager
+- Customizable touch controls and launcher settings
+- Android-native interface and game launch support
 
-🚀 Features
+## Install
 
-- 🎮 Minecraft Java Edition support
-- 🔐 Microsoft account authentication
-- 📦 Game version downloads and management
-- ☕ Java runtime management
-- 📁 Built-in file manager
-- ⚙️ Launcher settings and configuration
-- 📱 Android-focused interface
-- 🎨 PixieLauncher branding and design
+Download a compatible APK from the [PixieLauncher Releases](https://github.com/y4sh-x/PixieLauncher/releases) page and install it on an Android device. The launcher requires Android 8.0 (API 26) or newer.
 
-Feature availability depends on the current implementation.
+## Build
 
-📸 Screenshots
+Use JDK 17 or newer, Android SDK Platform 37.2, Android Build Tools, and NDK 25.2.9519653.
 
-Screenshots coming soon.
+Build the debug APK from the repository root:
 
-🛠️ Built With
-
-- Kotlin / Java
-- Android SDK
-- Gradle
-- Open-source Minecraft launcher technologies
-
-📥 Installation
-
-1. Visit the "Releases" (https://github.com/y4sh-x/PixieLauncher/releases) page.
-2. Download an available APK.
-3. Install it on your Android device.
-4. Open PixieLauncher and configure your launcher.
-
-🏗️ Building from Source
-
-Clone the repository:
-
-git clone https://github.com/y4sh-x/PixieLauncher.git
-
-Enter the project directory:
-
-cd PixieLauncher
-
-Build the Android debug APK:
-
+```shell
 ./gradlew assembleDebug
+```
 
-The APK is generally generated under:
+The APK is written under `PixieLauncher/build/outputs/apk/debug/`. To build only the app module, use:
 
-app/build/outputs/apk/debug/
+```shell
+./gradlew :PixieLauncher:assembleDebug
+```
 
-📌 Project Status
+Configure optional authentication and service credentials locally when needed; do not commit private credentials.
 
-PixieLauncher is under active development. Features, interface and compatibility may change as development progresses.
+## Attribution and licenses
 
-🙏 Credits & Attribution
+PixieLauncher is derived from the open-source [ZalithLauncher2 project](https://github.com/ZalithLauncher/ZalithLauncher2). The upstream launcher was developed by MovTery and its contributors. PixieLauncher is a rebrand, not an assertion of authorship of the original ZalithLauncher code.
 
-PixieLauncher is based on the open-source ZalithLauncher2 codebase.
+Original source copyright and license notices, upstream references, and bundled third-party notices are retained. The launcher source headers identify the GNU General Public License, version 3 or (at your option) any later version. Third-party components may be under separate terms; consult their bundled notices and the in-app license information.
 
-We acknowledge the original developers and contributors whose work makes this project possible.
+## Project
 
-Original project: "ZalithLauncher2" (https://github.com/ZalithLauncher/ZalithLauncher2)
-
-All original licenses, copyright notices and applicable attributions are retained.
-
-📄 License
-
-See the repository's existing LICENSE file for licensing terms.
-
-👨‍💻 Developer
-
-YASH
-
-Project: "PixieLauncher" (https://github.com/y4sh-x/PixieLauncher)
-
----
-
-Made for Minecraft Java Edition on Android. ✨
+- PixieLauncher maintainer: [YASH](https://github.com/y4sh-x)
+- PixieLauncher repository: <https://github.com/y4sh-x/PixieLauncher>
+- Upstream source: <https://github.com/ZalithLauncher/ZalithLauncher2>

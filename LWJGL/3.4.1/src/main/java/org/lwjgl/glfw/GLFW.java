@@ -14,7 +14,7 @@ import java.nio.*;
 
 
 import org.lwjgl.*;
-import com.movtery.zalithlauncher.CursorRegistry;
+import com.movtery.pixielauncher.CursorRegistry;
 import org.lwjgl.system.*;
 
 import static org.lwjgl.opengl.GL20.*;
